@@ -2,19 +2,19 @@ public class Pessoas {
    private String nome;
    private int idade;
 
-   public String Get Nome (){ 
-       return this. nome;
+   public String Get_Nome (){ 
+       return this.nome;
    }
 
-   public String Set Nome (String nome) {
+   public String Set_Nome (String nome) {
        return this.nome = nome;
    }
    
-   public int Get Idade () { 
+   public int Get_Idade () { 
       return this.idade;
    }
     
-   public int Set_ Idade (int idade) {
+   public int Set_Idade (int idade) {
        return this.idade = idade;
    }
 }
